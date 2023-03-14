@@ -1,9 +1,9 @@
 package org.tabletop;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.SpringBootConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootConfiguration
+@SpringBootApplication
 public class TableTopCommunityApp {
     public static void main(String[] args) {
         SpringApplication.run(TableTopCommunityApp.class, args);
